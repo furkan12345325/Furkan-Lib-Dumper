@@ -1,16 +1,20 @@
 # Radare2 Dumper by Furkan
 
-Bu araç, ELF (.so) dosyalarındaki C++ sembollerini `readelf` ve `c++filt` kullanarak çözer ve sınıf-metot bilgilerini `.cpp` formatında dışa aktarır.
+This Python script extracts C++ class and method information from `.so` (ELF) files using `readelf` and `c++filt`, then formats and dumps the data into readable `.cpp` source code.
 
-## 🧩 Gereksinimler
+---
+
+## 🧩 Requirements
 
 - Python 3
-- `readelf` ve `c++filt` (Termux kullanıyorsan otomatik yüklenir)
-- `.so` uzantılı ELF dosyası
+- `readelf` and `c++filt` (installed automatically if using Termux)
+- A valid `.so` file (shared library)
 
-## 📦 Kurulum
+---
+
+## 📦 Installation
 
 ```bash
-git clone https://github.com/kendi-repo-url/r2dumper.git
+git clone https://github.com/your-repo-url/r2dumper.git
 cd r2dumper
 chmod +x r2dump.py
