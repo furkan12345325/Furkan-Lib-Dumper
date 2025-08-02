@@ -10,6 +10,8 @@ This Python script extracts C++ class and method information from `.so` (ELF) fi
 - `readelf` and `c++filt` (installed automatically if using Termux)
 - A valid `.so` file (shared library)
 
+  /storage/emulated/0/folder location/libname.so
+
 ---
 
 ## 📦 Installation
@@ -23,4 +25,3 @@ cd r2dumper
 chmod +x r2dump.py
 python3 libdump-By-Furkan.py
 
-##HHS
