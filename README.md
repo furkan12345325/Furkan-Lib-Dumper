@@ -15,9 +15,12 @@ This Python script extracts C++ class and method information from `.so` (ELF) fi
 ## 📦 Installation
 
 ```bash
+termux-setup-storage
 pkg install git
 pkg install python3
 git clone https://github.com/your-repo-url/r2dumper.git
 cd r2dumper
 chmod +x r2dump.py
 python3 libdump-By-Furkan.py
+
+##HHS
